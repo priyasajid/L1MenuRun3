@@ -8,4 +8,11 @@
 	- L1_SingleMu22_OQ (bit 19)
 	- L1_SingleMu22_DQ (bit 20)
 	- L1_DoubleMu0_Upt5_Upt5 (bit 48)
+In order to accomodate the new seeds preserving the order, the following seeds have been moved:
 
+- 19-23 -> 21-25
+- 25-33 -> 26-34
+- 36-48 -> 35-47
+
+
+**NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
