@@ -110,11 +110,11 @@
       <li class="list-group-item"><strong>Comment:</strong> Updated version of the menu for Run3, integrating 3 monitoring seeds: 2 single muon and one double muon with upt cut.<br/>
 [Scale set reference, for grammar version 0.10]</li>
       <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
-      <li class="list-group-item"><strong>Menu UUID:</strong> c2a7649d-8283-48c9-9f16-bda5f0542c22</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> a36b10d2-4777-46dc-b02c-98d1209f915d</li>
       <li class="list-group-item"><strong>Grammar Version:</strong> 0.10</li>
       <li class="list-group-item"><strong>Scale Set:</strong> scales_2021_03_02</li>
       <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20180319</li>
-      <li class="list-group-item"><strong>Labels:</strong> Run3 (2022)</li>
+      <li class="list-group-item"><strong>Labels:</strong> Run3 (2022), Run3(2022), monitoring</li>
     </ul>
     <hr />
 
@@ -228,12 +228,12 @@
       <tr>
         <td><a href=#L1_SingleMu22_OQ>19</a></td>
         <td><a href=#L1_SingleMu22_OQ>L1_SingleMu22_OQ</a></td>
-        <td></td>
+        <td>Run3(2022), monitoring</td>
       </tr>
       <tr>
         <td><a href=#L1_SingleMu22_DQ>20</a></td>
         <td><a href=#L1_SingleMu22_DQ>L1_SingleMu22_DQ</a></td>
-        <td></td>
+        <td>Run3(2022), monitoring</td>
       </tr>
       <tr>
         <td><a href=#L1_SingleMu22>21</a></td>
@@ -373,7 +373,7 @@
       <tr>
         <td><a href=#L1_DoubleMu0_Upt5_Upt5>48</a></td>
         <td><a href=#L1_DoubleMu0_Upt5_Upt5>L1_DoubleMu0_Upt5_Upt5</a></td>
-        <td>Run3 (2022)</td>
+        <td>Run3 (2022), monitoring</td>
       </tr>
       <tr>
         <td><a href=#L1_DoubleMu0_Upt6_IP_Min1_Upt4>49</a></td>
@@ -2998,6 +2998,12 @@
         <p><strong>Comment</strong></p>
         <p>Monitoring Seed, May,2022.<br />https://its.cern.ch/jira/browse/CMSLITDPG-990</p>
   
+        <p><strong>Labels</strong></p>
+        <ul>
+          <li>Run3(2022)</li>
+          <li>monitoring</li>
+        </ul>
+  
 
         <p><strong>Conditions</strong></p>
         <ul>
@@ -3042,6 +3048,12 @@
         <p><pre class="vhdl"><span class="vhdlsig">l1_single_mu22_dq</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_mu_i415</span></pre></p>
         <p><strong>Comment</strong></p>
         <p>Monitoring Seed, May,2022.<br />https://its.cern.ch/jira/browse/CMSLITDPG-990</p>
+  
+        <p><strong>Labels</strong></p>
+        <ul>
+          <li>Run3(2022)</li>
+          <li>monitoring</li>
+        </ul>
   
 
         <p><strong>Conditions</strong></p>
@@ -4614,11 +4626,12 @@
         <p><strong>VHDL Expression</strong></p>
         <p><pre class="vhdl"><span class="vhdlsig">l1_double_mu0_upt5_upt5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">double_mu_i416</span> <span class="vhdlop">or</span> <span class="vhdlsig">double_mu_i417</span> <span class="vhdlop">or</span> <span class="vhdlsig">double_mu_i418</span> <span class="vhdlop">or</span> <span class="vhdlsig">double_mu_i419</span></pre></p>
         <p><strong>Comment</strong></p>
-        <p>L1 Menu (November 2021): seeds requested for  Long Lived Particle searches with displaced dimuons in the final state.<br />https://its.cern.ch/jira/browse/CMSLITDPG-959</p>
+        <p>Monitoring seed , May, 2022.<br />https://its.cern.ch/jira/browse/CMSLITDPG-990</p>
   
         <p><strong>Labels</strong></p>
         <ul>
           <li>Run3 (2022)</li>
+          <li>monitoring</li>
         </ul>
   
 
@@ -5786,15 +5799,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6146,15 +6159,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6474,15 +6487,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6561,15 +6574,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6745,15 +6758,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6885,15 +6898,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DR_1p2">DR_1p2</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.2]
                 : <code>[0.0, 1.441]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -7025,15 +7038,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#DR_1p2">DR_1p2</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.2]
                 : <code>[0.0, 1.441]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -7193,15 +7206,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_7">MASS_MIN_7</a></li>
             <ul><li>
                 Mass: [7.0, 151982.0]
                 : <code>[24.5, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -7280,15 +7293,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_7to18">MASS_MASS_7to18</a></li>
             <ul><li>
                 Mass: [7.0, 18.0]
                 : <code>[24.5, 162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -8475,15 +8488,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MASS_5to17">MASS_MASS_5to17</a></li>
             <ul><li>
                 Mass: [5.0, 17.0]
                 : <code>[12.5, 144.5]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -8874,15 +8887,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to9">MASS_MASS_0to9</a></li>
             <ul><li>
                 Mass: [0.0, 9.0]
                 : <code>[0.0, 40.5]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -9007,15 +9020,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to9">MASS_MASS_0to9</a></li>
             <ul><li>
                 Mass: [0.0, 9.0]
                 : <code>[0.0, 40.5]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -10486,15 +10499,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to14">MASS_MASS_0to14</a></li>
             <ul><li>
                 Mass: [0.0, 14.0]
                 : <code>[0.0, 98.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -22975,17 +22988,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
-            <ul><li>
-                Delta-Eta: [0.0, 1.5]
-                : <code>[0.0, 1.5]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_150">MASS_MIN_150</a></li>
             <ul><li>
                 Mass: [150.0, 151982.0]
                 : <code>[11250.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
+            <ul><li>
+                Delta-Eta: [0.0, 1.5]
+                : <code>[0.0, 1.5]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -23050,17 +23063,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
-            <ul><li>
-                Delta-Eta: [0.0, 1.5]
-                : <code>[0.0, 1.5]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_200">MASS_MIN_200</a></li>
             <ul><li>
                 Mass: [200.0, 151982.0]
                 : <code>[20000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
+            <ul><li>
+                Delta-Eta: [0.0, 1.5]
+                : <code>[0.0, 1.5]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -23125,17 +23138,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_250">MASS_MIN_250</a></li>
-            <ul><li>
-                Mass: [250.0, 151982.0]
-                : <code>[31250.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_250">MASS_MIN_250</a></li>
+            <ul><li>
+                Mass: [250.0, 151982.0]
+                : <code>[31250.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -23200,17 +23213,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_300">MASS_MIN_300</a></li>
-            <ul><li>
-                Mass: [300.0, 151982.0]
-                : <code>[45000.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_300">MASS_MIN_300</a></li>
+            <ul><li>
+                Mass: [300.0, 151982.0]
+                : <code>[45000.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -23275,17 +23288,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
-            <ul><li>
-                Delta-Eta: [0.0, 1.5]
-                : <code>[0.0, 1.5]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_330">MASS_MIN_330</a></li>
             <ul><li>
                 Mass: [330.0, 151982.0]
                 : <code>[54450.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
+            <ul><li>
+                Delta-Eta: [0.0, 1.5]
+                : <code>[0.0, 1.5]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -30145,7 +30158,7 @@
     </table>
 
     <footer class="footer">
-      <p>Generated by tm-reporter v2.10.1 on 2022-05-25 12:22:09.</p>
+      <p>Generated by tm-reporter v2.10.1 on 2022-05-25 13:44:30.</p>
     </fooer>
 
   </main><!-- /container -->
