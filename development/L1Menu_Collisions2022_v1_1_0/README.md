@@ -8,7 +8,8 @@
 	- L1_SingleMu22_OQ (bit 19)
 	- L1_SingleMu22_DQ (bit 20)
 	- L1_DoubleMu0_Upt5_Upt5 (bit 48)
-
+- 1 new prefiring monitoring seed [ https://its.cern.ch/jira/browse/CMSLITDPG-991]
+	- L1_MinimumBiasHF0 (bit 462)
 
 In order to accomodate the new seeds preserving the order, the following seeds have been moved:
 

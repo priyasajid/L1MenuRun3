@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>L1Menu_Collisions2022_v1_1_0</title>
-  <meta name="description" content="Updated version of the menu for Run3, integrating 3 monitoring seeds: 2 single muon and one double muon with upt cut.
+  <meta name="description" content="Updated version of the menu for Run3, integrating 3 monitoring seeds for muon triggers : 2 single muon and one double muon with upt cut and 1 monitoring seed for prefiring.
 [Scale set reference, for grammar version 0.10]">
   <meta name="generator" content="tm-reporter 2.10.1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -107,14 +107,14 @@
 
 
     <ul class="list-group">
-      <li class="list-group-item"><strong>Comment:</strong> Updated version of the menu for Run3, integrating 3 monitoring seeds: 2 single muon and one double muon with upt cut.<br/>
+      <li class="list-group-item"><strong>Comment:</strong> Updated version of the menu for Run3, integrating 3 monitoring seeds for muon triggers : 2 single muon and one double muon with upt cut and 1 monitoring seed for prefiring.<br/>
 [Scale set reference, for grammar version 0.10]</li>
       <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
-      <li class="list-group-item"><strong>Menu UUID:</strong> a36b10d2-4777-46dc-b02c-98d1209f915d</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> ed4593c1-fead-4287-9f89-5ea0ff8c07c3</li>
       <li class="list-group-item"><strong>Grammar Version:</strong> 0.10</li>
       <li class="list-group-item"><strong>Scale Set:</strong> scales_2021_03_02</li>
       <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20180319</li>
-      <li class="list-group-item"><strong>Labels:</strong> Run3 (2022), Run3(2022), monitoring</li>
+      <li class="list-group-item"><strong>Labels:</strong> Run3, Run3 (2022), Run3(2022), monitoring</li>
     </ul>
     <hr />
 
@@ -1904,6 +1904,11 @@
         <td><a href=#L1_MinimumBiasHF0_AND_BptxAND>461</a></td>
         <td><a href=#L1_MinimumBiasHF0_AND_BptxAND>L1_MinimumBiasHF0_AND_BptxAND</a></td>
         <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_MinimumBiasHF0>462</a></td>
+        <td><a href=#L1_MinimumBiasHF0>L1_MinimumBiasHF0</a></td>
+        <td>Run3, monitoring</td>
       </tr>
       <tr>
         <td><a href=#L1_NotBptxOR>463</a></td>
@@ -5799,15 +5804,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6159,15 +6164,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6487,15 +6492,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6574,15 +6579,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6758,15 +6763,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -6898,15 +6903,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p2">DR_1p2</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.2]
                 : <code>[0.0, 1.441]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -7038,15 +7043,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p2">DR_1p2</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.2]
                 : <code>[0.0, 1.441]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -7206,15 +7211,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MIN_7">MASS_MIN_7</a></li>
             <ul><li>
                 Mass: [7.0, 151982.0]
                 : <code>[24.5, 11549264162.0]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -7293,15 +7298,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MASS_7to18">MASS_MASS_7to18</a></li>
             <ul><li>
                 Mass: [7.0, 18.0]
                 : <code>[24.5, 162.0]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -10634,15 +10639,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_8to14">MASS_MASS_8to14</a></li>
             <ul><li>
                 Mass: [8.0, 14.0]
                 : <code>[32.0, 98.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -22988,17 +22993,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_150">MASS_MIN_150</a></li>
-            <ul><li>
-                Mass: [150.0, 151982.0]
-                : <code>[11250.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_150">MASS_MIN_150</a></li>
+            <ul><li>
+                Mass: [150.0, 151982.0]
+                : <code>[11250.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -23213,17 +23218,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
-            <ul><li>
-                Delta-Eta: [0.0, 1.5]
-                : <code>[0.0, 1.5]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_300">MASS_MIN_300</a></li>
             <ul><li>
                 Mass: [300.0, 151982.0]
                 : <code>[45000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
+            <ul><li>
+                Delta-Eta: [0.0, 1.5]
+                : <code>[0.0, 1.5]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -23363,17 +23368,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
-            <ul><li>
-                Delta-Eta: [0.0, 1.5]
-                : <code>[0.0, 1.5]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_360">MASS_MIN_360</a></li>
             <ul><li>
                 Mass: [360.0, 151982.0]
                 : <code>[64800.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
+            <ul><li>
+                Delta-Eta: [0.0, 1.5]
+                : <code>[0.0, 1.5]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -24521,17 +24526,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.5]
-                : <code>[0.0, 0.25]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_450">MASS_MIN_450</a></li>
             <ul><li>
                 Mass: [450.0, 151982.0]
                 : <code>[101250.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.5]
+                : <code>[0.0, 0.25]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -28044,6 +28049,67 @@
       </div>
     </div>
     <hr />
+    <a class="anchor" name="L1_MinimumBiasHF0"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>462 L1_MinimumBiasHF0 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">MBT0HFP1 <span class="keyword">AND</span> MBT0HFM1</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_minimum_bias_hf0</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_mbt0_hfp_i322</span> <span class="vhdlop">and</span> <span class="vhdlsig">single_mbt0_hfm_i323</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>Prefiring monitoring seed, May, 2022<br />https://its.cern.ch/jira/browse/CMSLITDPG-991</p>
+  
+        <p><strong>Labels</strong></p>
+        <ul>
+          <li>Run3</li>
+          <li>monitoring</li>
+        </ul>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>MBT0HFP1</strong> : <code>single_mbt0_hfp_i322</code>
+          <ul>
+            <li>Object: MBT0HFP1
+              <ul>
+                <li>
+                  
+                    Count: <a href="#MBT0HFP-COUNT_1">MBT0HFP-COUNT_1</a> 1
+                    : <code>0x1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        <li><strong>MBT0HFM1</strong> : <code>single_mbt0_hfm_i323</code>
+          <ul>
+            <li>Object: MBT0HFM1
+              <ul>
+                <li>
+                  
+                    Count: <a href="#MBT0HFM-COUNT_1">MBT0HFM-COUNT_1</a> 1
+                    : <code>0x1</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
     <a class="anchor" name="L1_NotBptxOR"></a>
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -30158,7 +30224,7 @@
     </table>
 
     <footer class="footer">
-      <p>Generated by tm-reporter v2.10.1 on 2022-05-25 13:44:30.</p>
+      <p>Generated by tm-reporter v2.10.1 on 2022-05-25 15:50:05.</p>
     </fooer>
 
   </main><!-- /container -->
