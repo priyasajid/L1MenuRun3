@@ -17,5 +17,9 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 - 25-33 -> 26-34
 - 36-48 -> 35-47
 
+For grouping the LLP seeds together, the following changes took place:
+- 339 -> 383
+- 384-387 -> 388-391
+- 388-391 -> 384-387
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
