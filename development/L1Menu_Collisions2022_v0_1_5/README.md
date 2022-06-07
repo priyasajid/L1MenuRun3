@@ -19,7 +19,7 @@
     - L1_SingleIsoTau32er2p1
     - L1_SingleIsoTau36er2p1
 
-**Tag/GT:** [![L1Menu_Collisions2022_v0_1_5_xml]https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v0_1_5_xml]
+**Tag/GT:** [[https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v0_1_5_xml][L1Menu_Collisions2022_v0_1_5_xml]]
 
 **synthesized and tested in uGT test crate**
 
