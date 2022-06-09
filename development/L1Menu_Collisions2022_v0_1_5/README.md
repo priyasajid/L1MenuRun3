@@ -31,4 +31,4 @@
 - Refernce JIRA ticket: [https://its.cern.ch/jira/browse/CMSLITDPG-970] 
 - Synthesized and tested in uGT test crate
 - Tag in condDB uploaded: [L1Menu_Collisions2022_v0_1_5_xml](https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v0_1_5_xml)
-- GT request done
+- GT request done [https://cms-talk.web.cern.ch/t/mc-run3-update-l1menu-in-gts/7522]

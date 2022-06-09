@@ -39,3 +39,11 @@ Summary of the modifications done (detailed list, especially for reordering, in 
     
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
+
+**Additional Remarks:**
+
+- Refernce JIRA ticket: [https://its.cern.ch/jira/browse/CMSLITDPG-980]
+- Synthesized and tested in uGT test crate
+- Tag in condDB uploaded: [L1Menu_Collisions2022_v1_0_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v1_0_0_xml)
+- GT request done [https://cms-talk.web.cern.ch/t/run-3-gt-update-of-the-l1-menu-tag-v1-0-0-in-run-3-mc-gts-and-run-3-data-relvals-gts/8895]
+

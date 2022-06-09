@@ -14,3 +14,9 @@ Adding three new seeds for B-Parking and renaming/shifting in position of some a
 ++ Seeds to be deleted (copies with wrong name): 34, 35, 36, 93, 94, 114, 115, 116, 117, 281, 299, 368, 369, 370, 371, 391, 392, 493, 495, 496, 497, 498, 499, 502, 507, 508, 509, 510, 511.
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
+
+**Additional Remarks:**
+
+- Tag in condDB uploaded: [L1Menu_Collisions2022_v0_1_8_xml](https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v0_1_8_xml)
+- GT request done [https://cms-talk.web.cern.ch/t/mc-run3-gt-update-of-the-l1-menu-tag-v0-1-8-in-run-3-mc-gts/8579]
+
