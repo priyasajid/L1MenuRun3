@@ -30,4 +30,4 @@ For grouping the LLP seeds together, the following changes took place:
 - Synthesized and tested in uGT test crate
 - Tag in condDB uploaded: [L1Menu_Collisions2022_v1_1_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v1_1_0_xml)
 - GT request done [https://cms-talk.web.cern.ch/t/run-3-gt-update-of-the-l1-menu-tag-v1-1-0-in-run-3-mc-gts-and-run-3-data-relvals-gts/11279]
-- The L1Menu_Collisions2022_v1_1_0 was deployed online on 2nd June during run352795.
+- The L1Menu_Collisions2022_v1_1_0 was deployed online on 2nd June, 2022 during run 352795 and fill 7689.
